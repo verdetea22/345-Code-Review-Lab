@@ -31,10 +31,10 @@ client.on("messageCreate", function(message) {
         message.reply(`Hi cutie pie! This message had a latency of ${timeTaken}ms.`);
     }
 
-    // isengard
-    if (command === "" || command === "hello") {
+    // marco polo
+    if (command === "Marco" || command === "marco") {
         const timeTaken = Date.now() - message.createdTimestamp;
-        message.reply(`Hi cutie pie! This message had a latency of ${timeTaken}ms.`);
+        message.reply(`Polo! `);
     }
 
     // help
