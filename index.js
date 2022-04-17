@@ -25,12 +25,6 @@ client.on("messageCreate", function(message) {
         message.reply(`Pong! This message had a latency of ${timeTaken}ms.`);
     }
 
-    // pee pee
-    if ((command === "pee") || (command === "peepee") || (command === "pee pee")) {
-        const timeTaken = Date.now() - message.createdTimestamp;
-        message.reply(`poo poo! This message had a latency of ${timeTaken}ms.`);
-    }
-
     // greeting
     if (command === "hi" || command === "hello") {
         const timeTaken = Date.now() - message.createdTimestamp;
