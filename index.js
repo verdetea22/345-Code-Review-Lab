@@ -27,6 +27,7 @@ client.on("messageCreate", function(message) {
 
     // greeting
     if (command === "hi" || command === "hello") {
+        //timeTaken is defined but never used
         const timeTaken = Date.now() - message.createdTimestamp;
         message.reply(`Hi cutie pie! This message had a latency of ${timeTaken}ms.`);
     }
