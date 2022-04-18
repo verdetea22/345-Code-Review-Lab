@@ -8,6 +8,7 @@
     },
     "devDependencies": {
         "discord.js": "^13.2.0",
+        "eslint": "^8.13.0",
         "node": "^16.10.0"
     },
     "scripts": {
